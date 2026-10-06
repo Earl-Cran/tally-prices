@@ -1,0 +1,1041 @@
+{
+  "VERSION": 1,
+  "CHECKED": "2026-10-05",
+  "COLORS": [
+    "t1",
+    "t2",
+    "t3",
+    "t4",
+    "t5",
+    "t6",
+    "t7",
+    "t8"
+  ],
+  "CATEGORIES": [
+    "Streaming",
+    "Music",
+    "Gaming",
+    "Apps & AI",
+    "Cloud & software",
+    "News & reading",
+    "Food & delivery",
+    "Fitness",
+    "Wellbeing",
+    "Learning",
+    "Phone & utilities",
+    "Other"
+  ],
+  "CAT_COLOR": {
+    "Streaming": "t3",
+    "Music": "t2",
+    "Gaming": "t5",
+    "Apps & AI": "t7",
+    "Cloud & software": "t8",
+    "News & reading": "t6",
+    "Food & delivery": "t10",
+    "Fitness": "t4",
+    "Wellbeing": "t9",
+    "Learning": "t1",
+    "Phone & utilities": "t12",
+    "Other": "t11"
+  },
+  "BUNDLES": {
+    "Apple One": {
+      "label": "Apple One Individual",
+      "price": 18.95,
+      "shared": false,
+      "parts": [
+        {
+          "pv": "Apple Music",
+          "tier": "Individual",
+          "p": 11.99
+        },
+        {
+          "pv": "Apple TV",
+          "p": 9.99
+        },
+        {
+          "pv": "Apple Arcade",
+          "p": 6.99
+        },
+        {
+          "pv": "iCloud+",
+          "tier": "50GB",
+          "p": 0.99
+        }
+      ]
+    },
+    "Apple One Family": {
+      "label": "Apple One Family",
+      "price": 24.95,
+      "shared": true,
+      "parts": [
+        {
+          "pv": "Apple Music",
+          "tier": "Family",
+          "p": 19.99
+        },
+        {
+          "pv": "Apple TV",
+          "p": 9.99
+        },
+        {
+          "pv": "Apple Arcade",
+          "p": 6.99
+        },
+        {
+          "pv": "iCloud+",
+          "tier": "200GB",
+          "p": 2.99
+        }
+      ]
+    },
+    "Apple One Premier": {
+      "label": "Apple One Premier",
+      "price": 36.95,
+      "shared": true,
+      "parts": [
+        {
+          "pv": "Apple Music",
+          "tier": "Family",
+          "p": 19.99
+        },
+        {
+          "pv": "Apple TV",
+          "p": 9.99
+        },
+        {
+          "pv": "Apple Arcade",
+          "p": 6.99
+        },
+        {
+          "pv": "iCloud+",
+          "tier": "2TB",
+          "p": 8.99
+        },
+        {
+          "pv": "Apple News+",
+          "p": 12.99
+        },
+        {
+          "pv": "Apple Fitness+",
+          "p": 9.99
+        }
+      ]
+    }
+  },
+  "BUNDLE_SERVICES": [
+    "Apple Music",
+    "Apple TV",
+    "Apple Arcade",
+    "iCloud+",
+    "Apple News+",
+    "Apple Fitness+"
+  ],
+  "STORAGE_RANK": {
+    "50GB": 1,
+    "200GB": 2,
+    "2TB": 3,
+    "6TB": 4,
+    "12TB": 5
+  },
+  "ALIASES": {
+    "primevideo": "Amazon Prime",
+    "amazonprimevideo": "Amazon Prime",
+    "amazon": "Amazon Prime",
+    "xbox": "Xbox Game Pass",
+    "gamepass": "Xbox Game Pass",
+    "playstation": "PlayStation Plus",
+    "psplus": "PlayStation Plus",
+    "ps5": "PlayStation Plus",
+    "youtube": "YouTube Premium",
+    "ytpremium": "YouTube Premium",
+    "appletv": "Apple TV",
+    "icloud": "iCloud+",
+    "microsoft": "Microsoft 365",
+    "office365": "Microsoft 365",
+    "office": "Microsoft 365",
+    "deliveroo": "Deliveroo Plus",
+    "uber": "Uber One",
+    "ubereats": "Uber One",
+    "kindle": "Kindle Unlimited",
+    "googleai": "Google One",
+    "gemini": "Google One",
+    "googledrive": "Google One",
+    "openai": "ChatGPT",
+    "chatgpt": "ChatGPT",
+    "anthropic": "Claude",
+    "applearcade": "Apple Arcade",
+    "arcade": "Apple Arcade",
+    "applenews": "Apple News+",
+    "applefitness": "Apple Fitness+",
+    "fitnessplus": "Apple Fitness+",
+    "photoshop": "Adobe",
+    "lightroom": "Adobe",
+    "creativecloud": "Adobe",
+    "disneyplus": "Disney+",
+    "paramountplus": "Paramount+",
+    "tvlicense": "TV Licence"
+  },
+  "PROVIDERS": [
+    {
+      "group": "TV & streaming",
+      "name": "Netflix",
+      "cat": "Streaming",
+      "color": "t3",
+      "plans": [
+        {
+          "plan": "Standard with adverts",
+          "n": "Netflix with ads",
+          "p": 7.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Standard",
+          "n": "Netflix",
+          "p": 13.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Premium",
+          "n": "Netflix Premium",
+          "p": 20.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "TV & streaming",
+      "name": "Disney+",
+      "cat": "Streaming",
+      "color": "t1",
+      "plans": [
+        {
+          "plan": "Standard with Ads",
+          "n": "Disney+ with ads",
+          "p": 5.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Standard",
+          "n": "Disney+",
+          "p": 9.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Standard, yearly",
+          "n": "Disney+",
+          "p": 99.9,
+          "c": "yearly"
+        },
+        {
+          "plan": "Premium",
+          "n": "Disney+ Premium",
+          "p": 14.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Premium, yearly",
+          "n": "Disney+ Premium",
+          "p": 149.9,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "TV & streaming",
+      "name": "Amazon Prime",
+      "cat": "Streaming",
+      "color": "t8",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Amazon Prime",
+          "p": 8.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Yearly",
+          "n": "Amazon Prime",
+          "p": 95,
+          "c": "yearly"
+        },
+        {
+          "plan": "Student, monthly",
+          "n": "Prime Student",
+          "p": 4.49,
+          "c": "monthly"
+        },
+        {
+          "plan": "Student, yearly",
+          "n": "Prime Student",
+          "p": 47.49,
+          "c": "yearly"
+        },
+        {
+          "plan": "Prime Video ad-free add-on",
+          "n": "Prime Video ad-free",
+          "p": 2.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "TV & streaming",
+      "name": "YouTube Premium",
+      "cat": "Streaming",
+      "color": "t3",
+      "plans": [
+        {
+          "plan": "Individual",
+          "n": "YouTube Premium",
+          "p": 12.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Individual, yearly",
+          "n": "YouTube Premium",
+          "p": 129.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Family",
+          "n": "YouTube Premium Family",
+          "p": 19.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Student",
+          "n": "YouTube Premium Student",
+          "p": 7.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Lite",
+          "n": "YouTube Premium Lite",
+          "p": 7.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "TV & streaming",
+      "name": "Apple TV",
+      "cat": "Streaming",
+      "color": "t8",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Apple TV",
+          "p": 9.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "TV & streaming",
+      "name": "Paramount+",
+      "cat": "Streaming",
+      "color": "t1",
+      "plans": [
+        {
+          "plan": "Basic with ads",
+          "n": "Paramount+ Basic",
+          "p": 5.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Basic, yearly",
+          "n": "Paramount+ Basic",
+          "p": 52.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Standard",
+          "n": "Paramount+",
+          "p": 9.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Standard, yearly",
+          "n": "Paramount+",
+          "p": 88.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Premium",
+          "n": "Paramount+ Premium",
+          "p": 12.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Premium, yearly",
+          "n": "Paramount+ Premium",
+          "p": 115.99,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "TV & streaming",
+      "name": "TV Licence",
+      "cat": "Phone & utilities",
+      "color": "t8",
+      "plans": [
+        {
+          "plan": "Colour licence, monthly",
+          "n": "TV Licence",
+          "p": 15,
+          "c": "monthly"
+        },
+        {
+          "plan": "Colour licence, yearly",
+          "n": "TV Licence",
+          "p": 180,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "Music",
+      "name": "Spotify",
+      "cat": "Music",
+      "color": "t2",
+      "plans": [
+        {
+          "plan": "Individual",
+          "n": "Spotify",
+          "p": 12.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Duo",
+          "n": "Spotify Duo",
+          "p": 17.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Family",
+          "n": "Spotify Family",
+          "p": 21.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Student",
+          "n": "Spotify Student",
+          "p": 5.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Basic Individual",
+          "n": "Spotify Basic",
+          "p": 10.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Music",
+      "name": "Apple Music",
+      "cat": "Music",
+      "color": "t6",
+      "plans": [
+        {
+          "plan": "Individual",
+          "n": "Apple Music",
+          "p": 11.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Family",
+          "n": "Apple Music Family",
+          "p": 19.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Apple & cloud storage",
+      "name": "iCloud+",
+      "cat": "Cloud & software",
+      "color": "t8",
+      "plans": [
+        {
+          "plan": "50GB",
+          "n": "iCloud+ 50GB",
+          "p": 0.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "200GB",
+          "n": "iCloud+ 200GB",
+          "p": 2.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "2TB",
+          "n": "iCloud+ 2TB",
+          "p": 8.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Apple & cloud storage",
+      "name": "Apple Arcade",
+      "cat": "Gaming",
+      "color": "t3",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Apple Arcade",
+          "p": 6.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Apple & cloud storage",
+      "name": "Apple News+",
+      "cat": "News & reading",
+      "color": "t3",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Apple News+",
+          "p": 12.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Apple & cloud storage",
+      "name": "Apple Fitness+",
+      "cat": "Fitness",
+      "color": "t5",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Apple Fitness+",
+          "p": 9.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Apple & cloud storage",
+      "name": "Apple One",
+      "cat": "Cloud & software",
+      "color": "t4",
+      "plans": [
+        {
+          "plan": "Individual",
+          "n": "Apple One",
+          "p": 18.95,
+          "c": "monthly"
+        },
+        {
+          "plan": "Family",
+          "n": "Apple One Family",
+          "p": 24.95,
+          "c": "monthly"
+        },
+        {
+          "plan": "Premier",
+          "n": "Apple One Premier",
+          "p": 36.95,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Gaming",
+      "name": "Xbox Game Pass",
+      "cat": "Gaming",
+      "color": "t5",
+      "plans": [
+        {
+          "plan": "Essential",
+          "n": "Game Pass Essential",
+          "p": 6.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Premium",
+          "n": "Game Pass Premium",
+          "p": 10.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Ultimate",
+          "n": "Game Pass Ultimate",
+          "p": 16.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "PC Game Pass",
+          "n": "PC Game Pass",
+          "p": 10.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Gaming",
+      "name": "PlayStation Plus",
+      "cat": "Gaming",
+      "color": "t1",
+      "plans": [
+        {
+          "plan": "Essential",
+          "n": "PS Plus Essential",
+          "p": 7.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Essential, yearly",
+          "n": "PS Plus Essential",
+          "p": 59.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Extra",
+          "n": "PS Plus Extra",
+          "p": 11.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Extra, yearly",
+          "n": "PS Plus Extra",
+          "p": 99.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Premium",
+          "n": "PS Plus Premium",
+          "p": 14.49,
+          "c": "monthly"
+        },
+        {
+          "plan": "Premium, yearly",
+          "n": "PS Plus Premium",
+          "p": 119.99,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "Apps & productivity",
+      "name": "Microsoft 365",
+      "cat": "Apps & AI",
+      "color": "t7",
+      "plans": [
+        {
+          "plan": "Personal",
+          "n": "Microsoft 365 Personal",
+          "p": 8.49,
+          "c": "monthly"
+        },
+        {
+          "plan": "Personal, yearly",
+          "n": "Microsoft 365 Personal",
+          "p": 84.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Family",
+          "n": "Microsoft 365 Family",
+          "p": 10.49,
+          "c": "monthly"
+        },
+        {
+          "plan": "Family, yearly",
+          "n": "Microsoft 365 Family",
+          "p": 104.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Premium",
+          "n": "Microsoft 365 Premium",
+          "p": 18.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Premium, yearly",
+          "n": "Microsoft 365 Premium",
+          "p": 189.99,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "Apps & productivity",
+      "name": "Google One",
+      "cat": "Cloud & software",
+      "color": "t1",
+      "plans": [
+        {
+          "plan": "100GB",
+          "n": "Google One 100GB",
+          "p": 1.59,
+          "c": "monthly"
+        },
+        {
+          "plan": "100GB, yearly",
+          "n": "Google One 100GB",
+          "p": 15.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "200GB",
+          "n": "Google One 200GB",
+          "p": 2.49,
+          "c": "monthly"
+        },
+        {
+          "plan": "200GB, yearly",
+          "n": "Google One 200GB",
+          "p": 24.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Google AI Plus (2TB)",
+          "n": "Google AI Plus",
+          "p": 7.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Google AI Plus, yearly",
+          "n": "Google AI Plus",
+          "p": 79.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Google AI Pro (5TB)",
+          "n": "Google AI Pro",
+          "p": 18.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Apps & productivity",
+      "name": "Canva",
+      "cat": "Apps & AI",
+      "color": "t2",
+      "plans": [
+        {
+          "plan": "Pro",
+          "n": "Canva Pro",
+          "p": 13,
+          "c": "monthly"
+        },
+        {
+          "plan": "Pro, yearly",
+          "n": "Canva Pro",
+          "p": 100,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "Apps & productivity",
+      "name": "Adobe",
+      "cat": "Apps & AI",
+      "color": "t3",
+      "plans": [
+        {
+          "plan": "Photoshop",
+          "n": "Adobe Photoshop",
+          "p": 21.98,
+          "c": "monthly"
+        },
+        {
+          "plan": "Creative Cloud Pro",
+          "n": "Creative Cloud Pro",
+          "p": 66.49,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Apps & productivity",
+      "name": "ChatGPT",
+      "cat": "Apps & AI",
+      "color": "t2",
+      "note": "Approximate UK prices. Check what you’re charged, as it can differ by app store and offer.",
+      "plans": [
+        {
+          "plan": "Go",
+          "n": "ChatGPT Go",
+          "p": 5.5,
+          "c": "monthly"
+        },
+        {
+          "plan": "Plus",
+          "n": "ChatGPT Plus",
+          "p": 19.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Pro",
+          "n": "ChatGPT Pro",
+          "p": 200,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Apps & productivity",
+      "name": "Claude",
+      "cat": "Apps & AI",
+      "color": "t7",
+      "note": "Billed in US dollars plus VAT, so the pound price moves a little with the exchange rate. Check your receipt.",
+      "plans": [
+        {
+          "plan": "Pro",
+          "n": "Claude Pro",
+          "p": 18,
+          "c": "monthly"
+        },
+        {
+          "plan": "Pro, yearly",
+          "n": "Claude Pro",
+          "p": 180,
+          "c": "yearly"
+        },
+        {
+          "plan": "Max 5x",
+          "n": "Claude Max 5x",
+          "p": 90,
+          "c": "monthly"
+        },
+        {
+          "plan": "Max 20x",
+          "n": "Claude Max 20x",
+          "p": 180,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Books & reading",
+      "name": "Audible",
+      "cat": "News & reading",
+      "color": "t7",
+      "plans": [
+        {
+          "plan": "Standard",
+          "n": "Audible",
+          "p": 5.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Premium Plus",
+          "n": "Audible Premium Plus",
+          "p": 8.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Books & reading",
+      "name": "Kindle Unlimited",
+      "cat": "News & reading",
+      "color": "t8",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Kindle Unlimited",
+          "p": 9.49,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Books & reading",
+      "name": "Readly",
+      "cat": "News & reading",
+      "color": "t3",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Readly",
+          "p": 12.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Food & delivery",
+      "name": "Uber One",
+      "cat": "Food & delivery",
+      "color": "t8",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Uber One",
+          "p": 4.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Yearly",
+          "n": "Uber One",
+          "p": 49.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Students",
+          "n": "Uber One Students",
+          "p": 2.49,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Food & delivery",
+      "name": "Deliveroo Plus",
+      "cat": "Food & delivery",
+      "color": "t2",
+      "plans": [
+        {
+          "plan": "Silver",
+          "n": "Deliveroo Plus Silver",
+          "p": 3.49,
+          "c": "monthly"
+        },
+        {
+          "plan": "Gold",
+          "n": "Deliveroo Plus Gold",
+          "p": 7.99,
+          "c": "monthly"
+        }
+      ]
+    },
+    {
+      "group": "Health & learning",
+      "name": "Strava",
+      "cat": "Fitness",
+      "color": "t7",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Strava",
+          "p": 8.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Yearly",
+          "n": "Strava",
+          "p": 54.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Family, yearly",
+          "n": "Strava Family",
+          "p": 99.99,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "Health & learning",
+      "name": "Headspace",
+      "cat": "Wellbeing",
+      "color": "t7",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Headspace",
+          "p": 9.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Yearly",
+          "n": "Headspace",
+          "p": 49.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Family, yearly",
+          "n": "Headspace Family",
+          "p": 99.99,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "Health & learning",
+      "name": "Calm",
+      "cat": "Wellbeing",
+      "color": "t1",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Calm",
+          "p": 12.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Yearly",
+          "n": "Calm",
+          "p": 39.99,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "Health & learning",
+      "name": "Duolingo",
+      "cat": "Learning",
+      "color": "t5",
+      "plans": [
+        {
+          "plan": "Super, monthly",
+          "n": "Super Duolingo",
+          "p": 10.99,
+          "c": "monthly"
+        },
+        {
+          "plan": "Super, yearly",
+          "n": "Super Duolingo",
+          "p": 59.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Super Family, yearly",
+          "n": "Super Duolingo Family",
+          "p": 105.99,
+          "c": "yearly"
+        },
+        {
+          "plan": "Max, yearly",
+          "n": "Duolingo Max",
+          "p": 119.99,
+          "c": "yearly"
+        }
+      ]
+    },
+    {
+      "group": "Other",
+      "name": "Gym",
+      "cat": "Fitness",
+      "color": "t4",
+      "plans": null
+    },
+    {
+      "group": "Other",
+      "name": "Phone plan",
+      "cat": "Phone & utilities",
+      "color": "t5",
+      "plans": null
+    },
+    {
+      "group": "Other",
+      "name": "Broadband",
+      "cat": "Phone & utilities",
+      "color": "t8",
+      "plans": null
+    }
+  ]
+}
