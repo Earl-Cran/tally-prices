@@ -1,6 +1,6 @@
 {
   "VERSION": 1,
-  "CHECKED": "2026-10-05",
+  "CHECKED": "2026-10-07",
   "COLORS": [
     "t1",
     "t2",
@@ -1035,6 +1035,209 @@
       "name": "Broadband",
       "cat": "Phone & utilities",
       "color": "t8",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "EE",
+      "cat": "Phone & utilities",
+      "color": "t2",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "O2",
+      "cat": "Phone & utilities",
+      "color": "t1",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "Vodafone",
+      "cat": "Phone & utilities",
+      "color": "t3",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "Three",
+      "cat": "Phone & utilities",
+      "color": "t6",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "Sky Mobile",
+      "cat": "Phone & utilities",
+      "color": "t4",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "giffgaff",
+      "cat": "Phone & utilities",
+      "color": "t8",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "Tesco Mobile",
+      "cat": "Phone & utilities",
+      "color": "t1",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "iD Mobile",
+      "cat": "Phone & utilities",
+      "color": "t5",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "SMARTY",
+      "cat": "Phone & utilities",
+      "color": "t2",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "VOXI",
+      "cat": "Phone & utilities",
+      "color": "t8",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "BT Mobile",
+      "cat": "Phone & utilities",
+      "color": "t4",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "Lebara",
+      "cat": "Phone & utilities",
+      "color": "t1",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "Lyca Mobile",
+      "cat": "Phone & utilities",
+      "color": "t8",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "Asda Mobile",
+      "cat": "Phone & utilities",
+      "color": "t5",
+      "plans": null
+    },
+    {
+      "group": "Mobile networks",
+      "name": "Talkmobile",
+      "cat": "Phone & utilities",
+      "color": "t4",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "BT Broadband",
+      "cat": "Phone & utilities",
+      "color": "t4",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Sky Broadband",
+      "cat": "Phone & utilities",
+      "color": "t4",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Virgin Media",
+      "cat": "Phone & utilities",
+      "color": "t3",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "TalkTalk",
+      "cat": "Phone & utilities",
+      "color": "t5",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Vodafone Broadband",
+      "cat": "Phone & utilities",
+      "color": "t3",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "EE Broadband",
+      "cat": "Phone & utilities",
+      "color": "t2",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Plusnet",
+      "cat": "Phone & utilities",
+      "color": "t7",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Hyperoptic",
+      "cat": "Phone & utilities",
+      "color": "t8",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Community Fibre",
+      "cat": "Phone & utilities",
+      "color": "t5",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "NOW Broadband",
+      "cat": "Phone & utilities",
+      "color": "t2",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Zen",
+      "cat": "Phone & utilities",
+      "color": "t2",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Utility Warehouse",
+      "cat": "Phone & utilities",
+      "color": "t4",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "Cuckoo",
+      "cat": "Phone & utilities",
+      "color": "t7",
+      "plans": null
+    },
+    {
+      "group": "Broadband providers",
+      "name": "YouFibre",
+      "cat": "Phone & utilities",
+      "color": "t5",
       "plans": null
     }
   ]
