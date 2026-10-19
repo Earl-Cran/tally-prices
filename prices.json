@@ -1,6 +1,6 @@
 {
+  "CHECKED": "2026-10-19",
   "VERSION": 1,
-  "CHECKED": "2026-10-15",
   "COLORS": [
     "t1",
     "t2",
@@ -23,6 +23,7 @@
     "Wellbeing",
     "Learning",
     "Phone & utilities",
+    "Creators",
     "Other"
   ],
   "CAT_COLOR": {
@@ -37,7 +38,8 @@
     "Wellbeing": "t9",
     "Learning": "t1",
     "Phone & utilities": "t12",
-    "Other": "t11"
+    "Other": "t11",
+    "Creators": "t5"
   },
   "BUNDLES": {
     "Apple One": {
@@ -1510,6 +1512,47 @@
           "ap": 22.99
         }
       ]
+    },
+    {
+      "group": "Creators",
+      "name": "Patreon",
+      "cat": "Creators",
+      "color": "t3",
+      "plans": null,
+      "creator": true
+    },
+    {
+      "group": "Creators",
+      "name": "Substack",
+      "cat": "Creators",
+      "color": "t8",
+      "plans": null,
+      "creator": true
+    },
+    {
+      "group": "Creators",
+      "name": "Twitch",
+      "cat": "Creators",
+      "color": "t7",
+      "plans": null,
+      "creator": true
+    },
+    {
+      "group": "Creators",
+      "name": "YouTube memberships",
+      "cat": "Creators",
+      "color": "t3",
+      "plans": null,
+      "creator": true
+    },
+    {
+      "group": "Creators",
+      "name": "OnlyFans",
+      "cat": "Creators",
+      "color": "t6",
+      "plans": null,
+      "creator": true,
+      "searchOnly": true
     },
     {
       "group": "Apps & productivity",
