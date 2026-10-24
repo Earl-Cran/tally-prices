@@ -1,5 +1,5 @@
 {
-  "CHECKED": "2026-10-19",
+  "CHECKED": "2026-10-24",
   "VERSION": 1,
   "COLORS": [
     "t1",
@@ -220,19 +220,42 @@
           "plan": "Standard with adverts",
           "n": "Netflix with ads",
           "p": 7.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "with-ads",
+          "tn": "Standard with adverts",
+          "inc": [
+            "Adverts on most shows and films",
+            "Full HD on 2 devices at once",
+            "Downloads on 2 devices"
+          ]
         },
         {
           "plan": "Standard",
           "n": "Netflix",
           "p": 13.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "standard",
+          "tn": "Standard",
+          "inc": [
+            "No adverts",
+            "Full HD on 2 devices at once",
+            "Downloads on 2 devices",
+            "Add 1 extra member from £5.99"
+          ]
         },
         {
           "plan": "Premium",
           "n": "Netflix Premium",
           "p": 20.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "No adverts",
+            "Ultra HD on 4 devices at once",
+            "Downloads on 6 devices",
+            "Spatial audio; add up to 2 extra members"
+          ]
         }
       ]
     },
@@ -245,36 +268,73 @@
         {
           "plan": "Standard with Ads",
           "n": "Disney+ with ads",
-          "p": 5.99,
+          "p": 6.99,
           "c": "monthly",
-          "ap": 6.99
+          "t": "with-ads",
+          "tn": "Standard with Ads",
+          "inc": [
+            "Adverts on films and series",
+            "Full HD, up to 5.1 sound",
+            "2 screens at once",
+            "No downloads"
+          ]
         },
         {
           "plan": "Standard",
           "n": "Disney+",
-          "p": 9.99,
+          "p": 11.99,
           "c": "monthly",
-          "ap": 11.99
+          "t": "standard",
+          "tn": "Standard",
+          "inc": [
+            "No adverts",
+            "Full HD, up to 5.1 sound",
+            "2 screens at once",
+            "Downloads on up to 10 devices"
+          ]
         },
         {
           "plan": "Standard, yearly",
           "n": "Disney+",
-          "p": 99.9,
-          "c": "yearly"
+          "p": 119.9,
+          "c": "yearly",
+          "t": "standard",
+          "tn": "Standard",
+          "inc": [
+            "No adverts",
+            "Full HD, up to 5.1 sound",
+            "2 screens at once",
+            "Downloads on up to 10 devices"
+          ]
         },
         {
           "plan": "Premium",
           "n": "Disney+ Premium",
-          "p": 14.99,
+          "p": 15.99,
           "c": "monthly",
-          "ap": 15.99
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "No adverts",
+            "4K UHD and HDR, up to Dolby Atmos",
+            "4 screens at once",
+            "Downloads on up to 10 devices"
+          ]
         },
         {
           "plan": "Premium, yearly",
           "n": "Disney+ Premium",
-          "p": 149.9,
+          "p": 159.9,
           "c": "yearly",
-          "ap": 159.99
+          "ap": 159.99,
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "No adverts",
+            "4K UHD and HDR, up to Dolby Atmos",
+            "4 screens at once",
+            "Downloads on up to 10 devices"
+          ]
         }
       ]
     },
@@ -288,31 +348,78 @@
           "plan": "Monthly",
           "n": "Amazon Prime",
           "p": 8.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "prime",
+          "inc": [
+            "Free fast delivery on millions of items",
+            "Prime Video, with adverts",
+            "Amazon Music Prime and Prime Reading",
+            "Unlimited photo storage"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Amazon Prime",
           "p": 95,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "prime",
+          "inc": [
+            "Free fast delivery on millions of items",
+            "Prime Video, with adverts",
+            "Amazon Music Prime and Prime Reading",
+            "Unlimited photo storage"
+          ]
         },
         {
           "plan": "Student, monthly",
           "n": "Prime Student",
           "p": 4.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "student",
+          "tn": "Student",
+          "inc": [
+            "Everything in Prime",
+            "Half price for students"
+          ],
+          "for": "Students"
         },
         {
           "plan": "Student, yearly",
           "n": "Prime Student",
           "p": 47.49,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "student",
+          "tn": "Student",
+          "inc": [
+            "Everything in Prime",
+            "Half price for students"
+          ],
+          "for": "Students"
+        },
+        {
+          "plan": "Prime Video",
+          "n": "Prime Video",
+          "p": 5.99,
+          "c": "monthly",
+          "t": "prime-video",
+          "tn": "Prime Video",
+          "inc": [
+            "Prime Video only, with adverts",
+            "No delivery or other Prime benefits"
+          ]
         },
         {
           "plan": "Prime Video ad-free add-on",
           "n": "Prime Video ad-free",
           "p": 2.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "ad-free",
+          "tn": "Prime Video ad-free",
+          "inc": [
+            "No adverts on Prime Video",
+            "Added to your Prime membership"
+          ],
+          "addon": true
         }
       ]
     },
@@ -323,37 +430,72 @@
       "color": "t3",
       "plans": [
         {
+          "plan": "Lite",
+          "n": "YouTube Premium Lite",
+          "p": 7.99,
+          "c": "monthly",
+          "ap": 10.49,
+          "t": "lite",
+          "tn": "Lite",
+          "inc": [
+            "No adverts on most videos",
+            "No downloads or background play",
+            "YouTube Music not included"
+          ]
+        },
+        {
           "plan": "Individual",
           "n": "YouTube Premium",
           "p": 12.99,
           "c": "monthly",
-          "ap": 16.99
+          "ap": 16.99,
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "No adverts",
+            "Downloads and background play",
+            "YouTube Music Premium included"
+          ]
         },
         {
           "plan": "Individual, yearly",
           "n": "YouTube Premium",
           "p": 129.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "No adverts",
+            "Downloads and background play",
+            "YouTube Music Premium included"
+          ]
         },
         {
           "plan": "Family",
           "n": "YouTube Premium Family",
           "p": 19.99,
           "c": "monthly",
-          "ap": 25.99
+          "ap": 25.99,
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 people in your household",
+            "Everything in Individual"
+          ],
+          "people": 6
         },
         {
           "plan": "Student",
           "n": "YouTube Premium Student",
           "p": 7.99,
-          "c": "monthly"
-        },
-        {
-          "plan": "Lite",
-          "n": "YouTube Premium Lite",
-          "p": 7.99,
           "c": "monthly",
-          "ap": 10.49
+          "t": "student",
+          "tn": "Student",
+          "inc": [
+            "Everything in Individual",
+            "For verified students"
+          ],
+          "for": "Students"
         }
       ]
     },
@@ -367,7 +509,14 @@
           "plan": "Monthly",
           "n": "Apple TV",
           "p": 9.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "apple-tv",
+          "inc": [
+            "Apple Original series and films",
+            "No adverts",
+            "Share with up to 5 people in Family Sharing"
+          ],
+          "people": 6
         }
       ]
     },
@@ -381,37 +530,79 @@
           "plan": "Basic with ads",
           "n": "Paramount+ Basic",
           "p": 5.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "basic",
+          "tn": "Basic with ads",
+          "inc": [
+            "Adverts",
+            "HD on 1 device at a time"
+          ]
         },
         {
           "plan": "Basic, yearly",
           "n": "Paramount+ Basic",
           "p": 52.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "basic",
+          "tn": "Basic with ads",
+          "inc": [
+            "Adverts",
+            "HD on 1 device at a time"
+          ]
         },
         {
           "plan": "Standard",
           "n": "Paramount+",
           "p": 9.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "standard",
+          "tn": "Standard",
+          "inc": [
+            "No adverts, except on live TV",
+            "Full HD on 2 devices at once",
+            "Downloads"
+          ]
         },
         {
           "plan": "Standard, yearly",
           "n": "Paramount+",
           "p": 88.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "standard",
+          "tn": "Standard",
+          "inc": [
+            "No adverts, except on live TV",
+            "Full HD on 2 devices at once",
+            "Downloads"
+          ]
         },
         {
           "plan": "Premium",
           "n": "Paramount+ Premium",
           "p": 12.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "No adverts, except on live TV",
+            "4K and Dolby Vision on some titles",
+            "4 devices at once",
+            "Downloads"
+          ]
         },
         {
           "plan": "Premium, yearly",
           "n": "Paramount+ Premium",
           "p": 115.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "No adverts, except on live TV",
+            "4K and Dolby Vision on some titles",
+            "4 devices at once",
+            "Downloads"
+          ]
         }
       ]
     },
@@ -445,31 +636,70 @@
           "plan": "Individual",
           "n": "Spotify",
           "p": 12.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "1 account",
+            "Ad-free music, offline and lossless",
+            "15 hours of audiobooks a month"
+          ]
         },
         {
           "plan": "Duo",
           "n": "Spotify Duo",
           "p": 17.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "duo",
+          "tn": "Duo",
+          "inc": [
+            "2 accounts at the same address",
+            "Everything in Individual",
+            "Audiobook hours for the plan manager"
+          ],
+          "people": 2
         },
         {
           "plan": "Family",
           "n": "Spotify Family",
           "p": 21.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 accounts at the same address",
+            "Everything in Individual",
+            "Parental controls",
+            "Audiobook hours for the plan manager"
+          ],
+          "people": 6
         },
         {
           "plan": "Student",
           "n": "Spotify Student",
           "p": 5.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "student",
+          "tn": "Student",
+          "inc": [
+            "1 account for a verified student",
+            "Ad-free music and offline listening"
+          ],
+          "for": "Students"
         },
         {
           "plan": "Basic Individual",
           "n": "Spotify Basic",
           "p": 10.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "basic",
+          "tn": "Basic Individual",
+          "inc": [
+            "1 account",
+            "Ad-free music and offline listening",
+            "No audiobook hours or lossless"
+          ],
+          "for": "Existing subscribers"
         }
       ]
     },
@@ -483,13 +713,43 @@
           "plan": "Individual",
           "n": "Apple Music",
           "p": 11.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "1 person",
+            "Ad-free, with offline listening",
+            "Lossless and Spatial Audio",
+            "Apple Music Classical included"
+          ]
         },
         {
           "plan": "Family",
           "n": "Apple Music Family",
           "p": 19.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 people with Family Sharing",
+            "Everything in Individual",
+            "Each person keeps their own library"
+          ],
+          "people": 6
+        },
+        {
+          "plan": "Student",
+          "n": "Apple Music Student",
+          "p": 5.99,
+          "c": "monthly",
+          "t": "student",
+          "tn": "Student",
+          "inc": [
+            "Everything in Individual",
+            "Apple TV included",
+            "For verified university students"
+          ],
+          "for": "Students"
         }
       ]
     },
@@ -503,19 +763,71 @@
           "plan": "50GB",
           "n": "iCloud+ 50GB",
           "p": 0.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "50gb",
+          "tn": "50GB",
+          "inc": [
+            "50GB of iCloud storage",
+            "Share with up to 5 others",
+            "Private Relay and Hide My Email"
+          ],
+          "people": 6
         },
         {
           "plan": "200GB",
           "n": "iCloud+ 200GB",
           "p": 2.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "200gb",
+          "tn": "200GB",
+          "inc": [
+            "200GB of iCloud storage",
+            "Share with up to 5 others",
+            "Private Relay and Hide My Email"
+          ],
+          "people": 6
         },
         {
           "plan": "2TB",
           "n": "iCloud+ 2TB",
           "p": 8.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "2tb",
+          "tn": "2TB",
+          "inc": [
+            "2TB of iCloud storage",
+            "Share with up to 5 others",
+            "Private Relay and Hide My Email"
+          ],
+          "people": 6
+        },
+        {
+          "plan": "6TB",
+          "n": "iCloud+ 6TB",
+          "p": 26.99,
+          "c": "monthly",
+          "t": "6tb",
+          "tn": "6TB",
+          "inc": [
+            "6TB of iCloud storage",
+            "Share with up to 5 others",
+            "Private Relay and Hide My Email"
+          ],
+          "people": 6
+        },
+        {
+          "plan": "12TB",
+          "n": "iCloud+ 12TB",
+          "p": 54.99,
+          "c": "monthly",
+          "t": "12tb",
+          "tn": "12TB",
+          "inc": [
+            "12TB of iCloud storage",
+            "Share with up to 5 others",
+            "Private Relay and Hide My Email"
+          ],
+          "people": 6
         }
       ]
     },
@@ -529,7 +841,13 @@
           "plan": "Monthly",
           "n": "Apple Arcade",
           "p": 6.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "arcade",
+          "inc": [
+            "200+ games, no adverts or in-app purchases",
+            "Share with up to 5 others"
+          ],
+          "people": 6
         }
       ]
     },
@@ -543,7 +861,14 @@
           "plan": "Monthly",
           "n": "Apple News+",
           "p": 12.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "news-plus",
+          "inc": [
+            "Hundreds of magazines and newspapers",
+            "Puzzles and audio stories",
+            "Share with up to 5 others"
+          ],
+          "people": 6
         }
       ]
     },
@@ -557,7 +882,14 @@
           "plan": "Monthly",
           "n": "Apple Fitness+",
           "p": 9.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "fitness-plus",
+          "inc": [
+            "Workouts and meditations",
+            "New sessions every week",
+            "Share with up to 5 others"
+          ],
+          "people": 6
         }
       ]
     },
@@ -571,19 +903,42 @@
           "plan": "Individual",
           "n": "Apple One",
           "p": 18.95,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Apple TV, Apple Music and Apple Arcade",
+            "50GB of iCloud+",
+            "1 person"
+          ]
         },
         {
           "plan": "Family",
           "n": "Apple One Family",
           "p": 24.95,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Apple TV, Apple Music and Apple Arcade",
+            "200GB of iCloud+",
+            "Share with up to 5 others"
+          ],
+          "people": 6
         },
         {
           "plan": "Premier",
           "n": "Apple One Premier",
           "p": 36.95,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premier",
+          "tn": "Premier",
+          "inc": [
+            "Everything in Family",
+            "2TB of iCloud+",
+            "Apple Fitness+ and Apple News+"
+          ],
+          "people": 6
         }
       ]
     },
@@ -597,25 +952,54 @@
           "plan": "Essential",
           "n": "Game Pass Essential",
           "p": 6.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "essential",
+          "tn": "Essential",
+          "inc": [
+            "50+ games on console and PC",
+            "Online console multiplayer",
+            "5 hours of cloud play a month"
+          ]
         },
         {
           "plan": "Premium",
           "n": "Game Pass Premium",
           "p": 10.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "200+ games on console and PC",
+            "Xbox games within a year of launch",
+            "10 hours of cloud play a month"
+          ]
         },
         {
           "plan": "Ultimate",
           "n": "Game Pass Ultimate",
           "p": 16.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "ultimate",
+          "tn": "Ultimate",
+          "inc": [
+            "400+ games, new ones on day one",
+            "EA Play, Fortnite Crew, Ubisoft+ Classics",
+            "15 hours of cloud play a month"
+          ]
         },
         {
           "plan": "PC Game Pass",
           "n": "PC Game Pass",
           "p": 10.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "pc",
+          "tn": "PC Game Pass",
+          "inc": [
+            "300+ PC games, new ones on day one",
+            "EA Play included",
+            "No cloud play"
+          ],
+          "for": "PC players"
         }
       ]
     },
@@ -629,37 +1013,79 @@
           "plan": "Essential",
           "n": "PS Plus Essential",
           "p": 7.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "essential",
+          "tn": "Essential",
+          "inc": [
+            "Monthly games",
+            "Online multiplayer",
+            "Cloud saves and member discounts"
+          ]
         },
         {
           "plan": "Essential, yearly",
           "n": "PS Plus Essential",
           "p": 59.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "essential",
+          "tn": "Essential",
+          "inc": [
+            "Monthly games",
+            "Online multiplayer",
+            "Cloud saves and member discounts"
+          ]
         },
         {
           "plan": "Extra",
           "n": "PS Plus Extra",
           "p": 11.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "extra",
+          "tn": "Extra",
+          "inc": [
+            "Everything in Essential",
+            "Game Catalogue of PS5 and PS4 games",
+            "Ubisoft+ Classics"
+          ]
         },
         {
           "plan": "Extra, yearly",
           "n": "PS Plus Extra",
           "p": 99.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "extra",
+          "tn": "Extra",
+          "inc": [
+            "Everything in Essential",
+            "Game Catalogue of PS5 and PS4 games",
+            "Ubisoft+ Classics"
+          ]
         },
         {
           "plan": "Premium",
           "n": "PS Plus Premium",
           "p": 14.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "Everything in Extra",
+            "Classics, game trials and cloud streaming",
+            "Sony Pictures films"
+          ]
         },
         {
           "plan": "Premium, yearly",
           "n": "PS Plus Premium",
           "p": 119.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "Everything in Extra",
+            "Classics, game trials and cloud streaming",
+            "Sony Pictures films"
+          ]
         }
       ]
     },
@@ -670,40 +1096,118 @@
       "color": "t7",
       "plans": [
         {
+          "plan": "Basic",
+          "n": "Microsoft 365 Basic",
+          "p": 1.99,
+          "c": "monthly",
+          "t": "basic",
+          "tn": "Basic",
+          "inc": [
+            "100GB OneDrive storage",
+            "Ad-free Outlook",
+            "No desktop Office apps or Copilot",
+            "1 person"
+          ]
+        },
+        {
+          "plan": "Basic, yearly",
+          "n": "Microsoft 365 Basic",
+          "p": 19.99,
+          "c": "yearly",
+          "t": "basic",
+          "tn": "Basic",
+          "inc": [
+            "100GB OneDrive storage",
+            "Ad-free Outlook",
+            "No desktop Office apps or Copilot",
+            "1 person"
+          ]
+        },
+        {
           "plan": "Personal",
           "n": "Microsoft 365 Personal",
           "p": 8.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "personal",
+          "tn": "Personal",
+          "inc": [
+            "Word, Excel, PowerPoint, Outlook",
+            "1TB OneDrive storage",
+            "Copilot in the apps",
+            "1 person, 5 devices at once"
+          ]
         },
         {
           "plan": "Personal, yearly",
           "n": "Microsoft 365 Personal",
           "p": 84.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "personal",
+          "tn": "Personal",
+          "inc": [
+            "Word, Excel, PowerPoint, Outlook",
+            "1TB OneDrive storage",
+            "Copilot in the apps",
+            "1 person, 5 devices at once"
+          ]
         },
         {
           "plan": "Family",
           "n": "Microsoft 365 Family",
           "p": 10.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 people",
+            "Everything in Personal",
+            "2TB of storage, shared",
+            "Copilot for the owner only"
+          ],
+          "people": 6
         },
         {
           "plan": "Family, yearly",
           "n": "Microsoft 365 Family",
           "p": 104.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 people",
+            "Everything in Personal",
+            "2TB of storage, shared",
+            "Copilot for the owner only"
+          ],
+          "people": 6
         },
         {
           "plan": "Premium",
           "n": "Microsoft 365 Premium",
           "p": 18.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "Everything in Family",
+            "Much higher Copilot limits",
+            "Copilot research and analysis tools"
+          ],
+          "people": 6
         },
         {
           "plan": "Premium, yearly",
           "n": "Microsoft 365 Premium",
           "p": 189.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "Everything in Family",
+            "Much higher Copilot limits",
+            "Copilot research and analysis tools"
+          ],
+          "people": 6
         }
       ]
     },
@@ -718,44 +1222,99 @@
           "n": "Google One 100GB",
           "p": 1.59,
           "c": "monthly",
-          "ap": 1.79
+          "ap": 1.79,
+          "t": "100gb",
+          "tn": "100GB",
+          "inc": [
+            "100GB for Photos, Drive and Gmail",
+            "Share with up to 5 others"
+          ],
+          "people": 6
         },
         {
           "plan": "100GB, yearly",
           "n": "Google One 100GB",
           "p": 15.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "100gb",
+          "tn": "100GB",
+          "inc": [
+            "100GB for Photos, Drive and Gmail",
+            "Share with up to 5 others"
+          ],
+          "people": 6
         },
         {
           "plan": "200GB",
           "n": "Google One 200GB",
           "p": 2.49,
           "c": "monthly",
-          "ap": 2.99
+          "ap": 2.99,
+          "t": "200gb",
+          "tn": "200GB",
+          "inc": [
+            "200GB for Photos, Drive and Gmail",
+            "Share with up to 5 others"
+          ],
+          "people": 6
         },
         {
           "plan": "200GB, yearly",
           "n": "Google One 200GB",
           "p": 24.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "200gb",
+          "tn": "200GB",
+          "inc": [
+            "200GB for Photos, Drive and Gmail",
+            "Share with up to 5 others"
+          ],
+          "people": 6
         },
         {
           "plan": "Google AI Plus (2TB)",
           "n": "Google AI Plus",
           "p": 7.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "ai-plus",
+          "tn": "Google AI Plus",
+          "inc": [
+            "2TB for Photos, Drive and Gmail",
+            "Gemini with higher limits",
+            "Gemini in Gmail",
+            "Share storage with up to 5 others"
+          ],
+          "people": 6
         },
         {
           "plan": "Google AI Plus, yearly",
           "n": "Google AI Plus",
           "p": 79.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "ai-plus",
+          "tn": "Google AI Plus",
+          "inc": [
+            "2TB for Photos, Drive and Gmail",
+            "Gemini with higher limits",
+            "Gemini in Gmail",
+            "Share storage with up to 5 others"
+          ],
+          "people": 6
         },
         {
           "plan": "Google AI Pro (5TB)",
           "n": "Google AI Pro",
           "p": 18.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "ai-pro",
+          "tn": "Google AI Pro",
+          "inc": [
+            "5TB for Photos, Drive and Gmail",
+            "Gemini Pro models and Deep Research",
+            "YouTube Premium Lite included",
+            "Share storage with up to 5 others"
+          ],
+          "people": 6
         }
       ]
     },
@@ -769,13 +1328,29 @@
           "plan": "Pro",
           "n": "Canva Pro",
           "p": 13,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "Premium templates, photos and fonts",
+            "Background remover and AI tools",
+            "100GB of cloud storage",
+            "1 person"
+          ]
         },
         {
           "plan": "Pro, yearly",
           "n": "Canva Pro",
           "p": 100,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "Premium templates, photos and fonts",
+            "Background remover and AI tools",
+            "100GB of cloud storage",
+            "1 person"
+          ]
         }
       ]
     },
@@ -784,18 +1359,33 @@
       "name": "Adobe",
       "cat": "Apps & AI",
       "color": "t3",
+      "separate": true,
       "plans": [
         {
           "plan": "Photoshop",
           "n": "Adobe Photoshop",
           "p": 21.98,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "photoshop",
+          "tn": "Photoshop",
+          "inc": [
+            "Photoshop on desktop, web and iPad",
+            "Generative AI credits",
+            "100GB of cloud storage"
+          ]
         },
         {
           "plan": "Creative Cloud Pro",
           "n": "Creative Cloud Pro",
           "p": 66.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "creative-cloud-pro",
+          "tn": "Creative Cloud Pro",
+          "inc": [
+            "20+ apps, including Photoshop and Premiere",
+            "More generative AI credits",
+            "100GB of cloud storage"
+          ]
         }
       ]
     },
@@ -810,19 +1400,38 @@
           "plan": "Go",
           "n": "ChatGPT Go",
           "p": 5.5,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "go",
+          "tn": "Go",
+          "inc": [
+            "More messages than the free plan",
+            "More image creation and uploads"
+          ]
         },
         {
           "plan": "Plus",
           "n": "ChatGPT Plus",
           "p": 19.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "plus",
+          "tn": "Plus",
+          "inc": [
+            "Higher limits than Go",
+            "Deep research and agent mode",
+            "Advanced voice and video"
+          ]
         },
         {
           "plan": "Pro",
           "n": "ChatGPT Pro",
           "p": 200,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "The highest limits",
+            "Access to the most capable models"
+          ]
         }
       ]
     },
@@ -838,28 +1447,56 @@
           "n": "Claude Pro",
           "p": 18,
           "c": "monthly",
-          "ap": 20
+          "ap": 20,
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "More usage than the free plan",
+            "Claude Code, Projects and Opus models",
+            "Claude in Chrome and Microsoft 365"
+          ]
         },
         {
           "plan": "Pro, yearly",
           "n": "Claude Pro",
           "p": 180,
           "c": "yearly",
-          "ap": 199.99
+          "ap": 199.99,
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "More usage than the free plan",
+            "Claude Code, Projects and Opus models",
+            "Claude in Chrome and Microsoft 365"
+          ]
         },
         {
           "plan": "Max 5x",
           "n": "Claude Max 5x",
           "p": 90,
           "c": "monthly",
-          "ap": 119.99
+          "ap": 119.99,
+          "t": "max-5x",
+          "tn": "Max 5x",
+          "inc": [
+            "5 times the usage of Pro",
+            "Priority access at busy times",
+            "Early access to new features"
+          ]
         },
         {
           "plan": "Max 20x",
           "n": "Claude Max 20x",
           "p": 180,
           "c": "monthly",
-          "ap": 249.99
+          "ap": 249.99,
+          "t": "max-20x",
+          "tn": "Max 20x",
+          "inc": [
+            "20 times the usage of Pro",
+            "Priority access at busy times",
+            "Early access to new features"
+          ]
         }
       ]
     },
@@ -873,14 +1510,53 @@
           "plan": "Standard",
           "n": "Audible",
           "p": 5.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "standard",
+          "tn": "Standard",
+          "inc": [
+            "1 audiobook a month, no roll-over",
+            "Podcasts and member sales"
+          ]
         },
         {
           "plan": "Premium Plus",
           "n": "Audible Premium Plus",
           "p": 8.99,
           "c": "monthly",
-          "ap": 9.99
+          "ap": 9.99,
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "1 credit a month, rolls over up to 6",
+            "The all-you-can-listen catalogue",
+            "Member-only sales and discounts"
+          ]
+        },
+        {
+          "plan": "Premium, yearly",
+          "n": "Audible Premium Plus",
+          "p": 69.99,
+          "c": "yearly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "1 credit a month, rolls over up to 6",
+            "The all-you-can-listen catalogue",
+            "Member-only sales and discounts"
+          ]
+        },
+        {
+          "plan": "Premium 24 credits, yearly",
+          "n": "Audible Premium Plus 24 credits",
+          "p": 109.99,
+          "c": "yearly",
+          "t": "premium-24",
+          "tn": "Premium, 24 credits",
+          "inc": [
+            "24 credits a year",
+            "The all-you-can-listen catalogue",
+            "Member-only sales and discounts"
+          ]
         }
       ]
     },
@@ -894,7 +1570,13 @@
           "plan": "Monthly",
           "n": "Kindle Unlimited",
           "p": 9.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "kindle-unlimited",
+          "inc": [
+            "Millions of ebooks to borrow",
+            "Thousands of audiobooks and magazines",
+            "Read on any Kindle device or app"
+          ]
         }
       ]
     },
@@ -908,7 +1590,12 @@
           "plan": "Monthly",
           "n": "Readly",
           "p": 12.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "readly",
+          "inc": [
+            "Thousands of magazines and newspapers",
+            "Share with up to 5 family profiles"
+          ]
         }
       ]
     },
@@ -922,19 +1609,38 @@
           "plan": "Monthly",
           "n": "Uber One",
           "p": 4.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "uber-one",
+          "inc": [
+            "£0 delivery fee on eligible Eats orders",
+            "Lower service fees",
+            "Uber credits on rides"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Uber One",
           "p": 49.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "uber-one",
+          "inc": [
+            "£0 delivery fee on eligible Eats orders",
+            "Lower service fees",
+            "Uber credits on rides"
+          ]
         },
         {
           "plan": "Students",
           "n": "Uber One Students",
           "p": 2.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "students",
+          "tn": "Students",
+          "inc": [
+            "Everything in Uber One",
+            "Half price for students"
+          ],
+          "for": "Students"
         }
       ]
     },
@@ -948,13 +1654,27 @@
           "plan": "Silver",
           "n": "Deliveroo Plus Silver",
           "p": 3.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "silver",
+          "tn": "Silver",
+          "inc": [
+            "Free delivery over £15 at restaurants",
+            "Free delivery over £25 at shops"
+          ],
+          "for": "Partner customers"
         },
         {
           "plan": "Gold",
           "n": "Deliveroo Plus Gold",
-          "p": 7.99,
-          "c": "monthly"
+          "p": 4.99,
+          "c": "monthly",
+          "t": "gold",
+          "tn": "Gold",
+          "inc": [
+            "Free delivery over £10 at restaurants",
+            "Free delivery over £15 at shops",
+            "Lower service fees"
+          ]
         }
       ]
     },
@@ -968,19 +1688,38 @@
           "plan": "Monthly",
           "n": "Strava",
           "p": 8.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "subscription",
+          "inc": [
+            "Routes, segments and training tools",
+            "Progress and fitness insights",
+            "1 person"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Strava",
           "p": 54.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "subscription",
+          "inc": [
+            "Routes, segments and training tools",
+            "Progress and fitness insights",
+            "1 person"
+          ]
         },
         {
           "plan": "Family, yearly",
           "n": "Strava Family",
           "p": 99.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 4 people",
+            "Everything in the subscription"
+          ],
+          "people": 4
         }
       ]
     },
@@ -994,19 +1733,38 @@
           "plan": "Monthly",
           "n": "Headspace",
           "p": 9.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "headspace",
+          "inc": [
+            "Guided meditations and sleep sounds",
+            "Mindfulness courses",
+            "1 person"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Headspace",
           "p": 49.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "headspace",
+          "inc": [
+            "Guided meditations and sleep sounds",
+            "Mindfulness courses",
+            "1 person"
+          ]
         },
         {
           "plan": "Family, yearly",
           "n": "Headspace Family",
           "p": 99.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 people",
+            "Everything in Headspace"
+          ],
+          "people": 6
         }
       ]
     },
@@ -1020,13 +1778,25 @@
           "plan": "Monthly",
           "n": "Calm",
           "p": 12.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "calm",
+          "inc": [
+            "Sleep stories and meditations",
+            "Music for focus and sleep",
+            "Courses and masterclasses"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Calm",
           "p": 39.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "calm",
+          "inc": [
+            "Sleep stories and meditations",
+            "Music for focus and sleep",
+            "Courses and masterclasses"
+          ]
         }
       ]
     },
@@ -1041,25 +1811,55 @@
           "n": "Super Duolingo",
           "p": 10.99,
           "c": "monthly",
-          "ap": 12.49
+          "ap": 12.49,
+          "t": "super",
+          "tn": "Super",
+          "inc": [
+            "No adverts",
+            "Unlimited hearts",
+            "Personalised practice",
+            "1 person"
+          ]
         },
         {
           "plan": "Super, yearly",
           "n": "Super Duolingo",
           "p": 59.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "super",
+          "tn": "Super",
+          "inc": [
+            "No adverts",
+            "Unlimited hearts",
+            "Personalised practice",
+            "1 person"
+          ]
         },
         {
           "plan": "Super Family, yearly",
           "n": "Super Duolingo Family",
           "p": 105.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "super-family",
+          "tn": "Super Family",
+          "inc": [
+            "Up to 6 people",
+            "Everything in Super"
+          ],
+          "people": 6
         },
         {
           "plan": "Max, yearly",
           "n": "Duolingo Max",
           "p": 119.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "max",
+          "tn": "Max",
+          "inc": [
+            "Everything in Super",
+            "AI explanations of your answers",
+            "Video call practice"
+          ]
         }
       ]
     },
@@ -1073,13 +1873,27 @@
           "plan": "Premium",
           "n": "MyFitnessPal Premium",
           "p": 15.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "Barcode scanning and meal plans",
+            "Custom nutrition goals",
+            "No adverts"
+          ]
         },
         {
           "plan": "Premium, yearly",
           "n": "MyFitnessPal Premium",
           "p": 64.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "Barcode scanning and meal plans",
+            "Custom nutrition goals",
+            "No adverts"
+          ]
         }
       ]
     },
@@ -1093,20 +1907,39 @@
           "plan": "App One",
           "n": "Peloton App One",
           "p": 12.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "app-one",
+          "tn": "App One",
+          "inc": [
+            "Unlimited classes without equipment",
+            "Up to 3 cardio-equipment classes a month"
+          ]
         },
         {
           "plan": "App One, yearly",
           "n": "Peloton App One",
           "p": 129,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "app-one",
+          "tn": "App One",
+          "inc": [
+            "Unlimited classes without equipment",
+            "Up to 3 cardio-equipment classes a month"
+          ]
         },
         {
           "plan": "App+",
           "n": "Peloton App+",
           "p": 24,
           "c": "monthly",
-          "ap": 28.99
+          "ap": 28.99,
+          "t": "app-plus",
+          "tn": "App+",
+          "inc": [
+            "Everything in App One",
+            "Unlimited cardio-equipment classes",
+            "Lanebreak and Scenic Rides"
+          ]
         }
       ]
     },
@@ -1120,13 +1953,27 @@
           "plan": "Unlimited",
           "n": "Fiit",
           "p": 19.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "unlimited",
+          "tn": "Unlimited",
+          "inc": [
+            "Unlimited live and on-demand classes",
+            "Strength, cardio and rebalance",
+            "Training plans"
+          ]
         },
         {
           "plan": "Unlimited, yearly",
           "n": "Fiit",
           "p": 119.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "unlimited",
+          "tn": "Unlimited",
+          "inc": [
+            "Unlimited live and on-demand classes",
+            "Strength, cardio and rebalance",
+            "Training plans"
+          ]
         }
       ]
     },
@@ -1140,13 +1987,23 @@
           "plan": "Monthly",
           "n": "Zwift",
           "p": 17.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "zwift",
+          "inc": [
+            "Indoor rides and runs in virtual worlds",
+            "Group rides, races and workouts"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Zwift",
           "p": 179.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "zwift",
+          "inc": [
+            "Indoor rides and runs in virtual worlds",
+            "Group rides, races and workouts"
+          ]
         }
       ]
     },
@@ -1160,13 +2017,25 @@
           "plan": "Monthly",
           "n": "Runna",
           "p": 15.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "runna",
+          "inc": [
+            "Personalised plans for any distance",
+            "Plans that adapt to how you run",
+            "Syncs with Apple Watch, Garmin and more"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Runna",
           "p": 99.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "runna",
+          "inc": [
+            "Personalised plans for any distance",
+            "Plans that adapt to how you run",
+            "Syncs with Apple Watch, Garmin and more"
+          ]
         }
       ]
     },
@@ -1180,13 +2049,25 @@
           "plan": "Monthly",
           "n": "Fitbit Premium",
           "p": 7.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "inc": [
+            "Daily Readiness and sleep insights",
+            "Guided workouts and mindfulness",
+            "Health metrics trends"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Fitbit Premium",
           "p": 79.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium",
+          "inc": [
+            "Daily Readiness and sleep insights",
+            "Guided workouts and mindfulness",
+            "Health metrics trends"
+          ]
         }
       ]
     },
@@ -1200,13 +2081,25 @@
           "plan": "Monthly",
           "n": "Garmin Connect+",
           "p": 6.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "connect-plus",
+          "inc": [
+            "Active Intelligence AI insights",
+            "Extra training and performance tools",
+            "Live tracking extras"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "Garmin Connect+",
           "p": 69.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "connect-plus",
+          "inc": [
+            "Active Intelligence AI insights",
+            "Extra training and performance tools",
+            "Live tracking extras"
+          ]
         }
       ]
     },
@@ -1234,13 +2127,25 @@
           "plan": "1 month",
           "n": "Babbel",
           "p": 16.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "babbel",
+          "inc": [
+            "Lessons in 1 language",
+            "Speech recognition and reviews",
+            "Podcasts and games"
+          ]
         },
         {
           "plan": "12 months",
           "n": "Babbel",
           "p": 77.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "babbel",
+          "inc": [
+            "Lessons in 1 language",
+            "Speech recognition and reviews",
+            "Podcasts and games"
+          ]
         }
       ]
     },
@@ -1254,13 +2159,27 @@
           "plan": "Premium",
           "n": "Blinkist",
           "p": 11.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "Key ideas from thousands of books",
+            "Read or listen in 15 minutes",
+            "Offline access"
+          ]
         },
         {
           "plan": "Premium, yearly",
           "n": "Blinkist",
           "p": 69.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "Key ideas from thousands of books",
+            "Read or listen in 15 minutes",
+            "Offline access"
+          ]
         }
       ]
     },
@@ -1274,27 +2193,77 @@
           "plan": "Entertainment",
           "n": "NOW Entertainment",
           "p": 7.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "entertainment",
+          "tn": "Entertainment",
+          "inc": [
+            "Sky Originals and big US series",
+            "Returning HBO series",
+            "Adverts, unless you add Boost"
+          ]
         },
         {
           "plan": "Entertainment & HBO Max",
           "n": "NOW Entertainment & HBO Max",
           "p": 9.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "entertainment-hbo",
+          "tn": "Entertainment & HBO Max",
+          "inc": [
+            "Everything in Entertainment",
+            "HBO Max Basic with Ads"
+          ]
         },
         {
           "plan": "Cinema",
           "n": "NOW Cinema",
           "p": 9.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "cinema",
+          "tn": "Cinema",
+          "inc": [
+            "The latest blockbusters",
+            "Hundreds of films"
+          ]
+        },
+        {
+          "plan": "Multi-Sport",
+          "n": "NOW Multi-Sport",
+          "p": 26.99,
+          "c": "monthly",
+          "t": "multi-sport",
+          "tn": "Multi-Sport",
+          "inc": [
+            "Sky Sports multi-sport channels",
+            "Adverts on live channels"
+          ]
+        },
+        {
+          "plan": "Football",
+          "n": "NOW Football",
+          "p": 30.99,
+          "c": "monthly",
+          "t": "football",
+          "tn": "Football",
+          "inc": [
+            "Sky Sports football channels",
+            "Adverts on live channels"
+          ]
         },
         {
           "plan": "All Sky Sports",
           "n": "NOW Sports",
           "p": 34.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "sports",
+          "tn": "All Sky Sports",
+          "inc": [
+            "Every Sky Sports channel",
+            "Adverts on live channels"
+          ]
         }
-      ]
+      ],
+      "separate": true
     },
     {
       "group": "TV & streaming",
@@ -1306,13 +2275,25 @@
           "plan": "Monthly",
           "n": "ITVX Premium",
           "p": 5.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "inc": [
+            "No adverts on most shows",
+            "Downloads to watch offline",
+            "BritBox shows included"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "ITVX Premium",
           "p": 59.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium",
+          "inc": [
+            "No adverts on most shows",
+            "Downloads to watch offline",
+            "BritBox shows included"
+          ]
         }
       ]
     },
@@ -1326,21 +2307,53 @@
           "plan": "Entertainment",
           "n": "discovery+",
           "p": 3.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "entertainment",
+          "tn": "Entertainment",
+          "inc": [
+            "Discovery, TLC and real-life shows",
+            "Adverts"
+          ]
         },
         {
           "plan": "Entertainment, yearly",
           "n": "discovery+",
           "p": 39.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "entertainment",
+          "tn": "Entertainment",
+          "inc": [
+            "Discovery, TLC and real-life shows",
+            "Adverts"
+          ]
         },
         {
-          "plan": "Premium with TNT Sports",
+          "plan": "TNT Sports",
           "n": "discovery+ Premium",
           "p": 30.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "tnt-sports",
+          "tn": "TNT Sports",
+          "inc": [
+            "TNT Sports and Eurosport",
+            "Champions League, Premiership Rugby, UFC",
+            "Adverts"
+          ]
+        },
+        {
+          "plan": "TNT Sports & Entertainment",
+          "n": "discovery+ TNT Sports & Entertainment",
+          "p": 33.99,
+          "c": "monthly",
+          "t": "tnt-sports-entertainment",
+          "tn": "TNT Sports & Entertainment",
+          "inc": [
+            "Everything in TNT Sports",
+            "Everything in Entertainment"
+          ]
         }
-      ]
+      ],
+      "separate": true
     },
     {
       "group": "TV & streaming",
@@ -1352,7 +2365,12 @@
           "plan": "Monthly",
           "n": "DAZN",
           "p": 25.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "dazn",
+          "inc": [
+            "Boxing, women's football and more",
+            "Watch on 2 devices at once"
+          ]
         }
       ]
     },
@@ -1366,25 +2384,54 @@
           "plan": "Fan",
           "n": "Crunchyroll Fan",
           "p": 5.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "fan",
+          "tn": "Fan",
+          "inc": [
+            "Ad-free anime",
+            "1 stream at a time"
+          ]
         },
         {
           "plan": "Mega Fan",
           "n": "Crunchyroll Mega Fan",
           "p": 6.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "mega-fan",
+          "tn": "Mega Fan",
+          "inc": [
+            "Ad-free anime",
+            "4 streams at once",
+            "Offline viewing",
+            "Crunchyroll Game Vault"
+          ]
         },
         {
           "plan": "Mega Fan, yearly",
           "n": "Crunchyroll Mega Fan",
           "p": 69.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "mega-fan",
+          "tn": "Mega Fan",
+          "inc": [
+            "Ad-free anime",
+            "4 streams at once",
+            "Offline viewing",
+            "Crunchyroll Game Vault"
+          ]
         },
         {
           "plan": "Ultimate Fan",
           "n": "Crunchyroll Ultimate Fan",
           "p": 9.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "ultimate-fan",
+          "tn": "Ultimate Fan",
+          "inc": [
+            "Everything in Mega Fan",
+            "6 streams at once",
+            "Crunchyroll Store discount"
+          ]
         }
       ]
     },
@@ -1398,19 +2445,38 @@
           "plan": "Monthly",
           "n": "MUBI",
           "p": 11.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "mubi",
+          "inc": [
+            "Hand-picked films, new ones every day",
+            "No adverts",
+            "Downloads to watch offline"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "MUBI",
           "p": 95.88,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "mubi",
+          "inc": [
+            "Hand-picked films, new ones every day",
+            "No adverts",
+            "Downloads to watch offline"
+          ]
         },
         {
           "plan": "MUBI GO",
           "n": "MUBI GO",
           "p": 18.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "mubi-go",
+          "tn": "MUBI GO",
+          "inc": [
+            "Everything in MUBI",
+            "A free cinema ticket each week",
+            "For MUBI's Film of the Week"
+          ]
         }
       ]
     },
@@ -1424,21 +2490,42 @@
           "plan": "Prime members",
           "n": "Amazon Music Unlimited",
           "p": 11.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "prime-members",
+          "tn": "Prime members",
+          "inc": [
+            "Everything in Individual",
+            "Lower price for Prime members"
+          ],
+          "for": "Prime members"
         },
         {
           "plan": "Individual",
           "n": "Amazon Music Unlimited",
           "p": 12.99,
           "c": "monthly",
-          "ap": 13.99
+          "ap": 13.99,
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Ad-free, with offline listening",
+            "HD and Ultra HD audio",
+            "Spatial audio"
+          ]
         },
         {
           "plan": "Family",
           "n": "Amazon Music Unlimited Family",
           "p": 21.99,
           "c": "monthly",
-          "ap": 24.99
+          "ap": 24.99,
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 people",
+            "Everything in Individual"
+          ],
+          "people": 6
         }
       ]
     },
@@ -1453,13 +2540,26 @@
           "n": "YouTube Music",
           "p": 10.99,
           "c": "monthly",
-          "ap": 14.99
+          "ap": 14.99,
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Ad-free music",
+            "Downloads and background play"
+          ]
         },
         {
           "plan": "Student",
           "n": "YouTube Music Student",
           "p": 5.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "student",
+          "tn": "Student",
+          "inc": [
+            "Everything in Individual",
+            "For verified students"
+          ],
+          "for": "Students"
         }
       ]
     },
@@ -1474,20 +2574,41 @@
           "n": "Tidal",
           "p": 10.99,
           "c": "monthly",
-          "ap": 16.99
+          "ap": 16.99,
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "1 account",
+            "Ad-free, lossless and hi-res audio",
+            "Offline listening"
+          ]
         },
         {
           "plan": "Family",
           "n": "Tidal Family",
           "p": 16.99,
           "c": "monthly",
-          "ap": 29.99
+          "ap": 29.99,
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 accounts",
+            "Everything in Individual"
+          ],
+          "people": 6
         },
         {
           "plan": "Student",
           "n": "Tidal Student",
           "p": 5.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "student",
+          "tn": "Student",
+          "inc": [
+            "Everything in Individual",
+            "For verified students"
+          ],
+          "for": "Students"
         }
       ]
     },
@@ -1502,14 +2623,93 @@
           "n": "Deezer",
           "p": 11.99,
           "c": "monthly",
-          "ap": 14.99
+          "ap": 14.99,
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "1 account",
+            "Ad-free, with offline listening",
+            "High Fidelity sound"
+          ]
+        },
+        {
+          "plan": "Premium, yearly",
+          "n": "Deezer",
+          "p": 107.91,
+          "c": "yearly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "1 account",
+            "Ad-free, with offline listening",
+            "High Fidelity sound"
+          ]
+        },
+        {
+          "plan": "Duo",
+          "n": "Deezer Duo",
+          "p": 15.99,
+          "c": "monthly",
+          "t": "duo",
+          "tn": "Duo",
+          "inc": [
+            "2 accounts",
+            "Everything in Premium"
+          ],
+          "people": 2
+        },
+        {
+          "plan": "Duo, yearly",
+          "n": "Deezer Duo",
+          "p": 174.99,
+          "c": "yearly",
+          "t": "duo",
+          "tn": "Duo",
+          "inc": [
+            "2 accounts",
+            "Everything in Premium"
+          ],
+          "people": 2
         },
         {
           "plan": "Family",
           "n": "Deezer Family",
           "p": 19.99,
           "c": "monthly",
-          "ap": 22.99
+          "ap": 22.99,
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 accounts",
+            "Everything in Premium"
+          ],
+          "people": 6
+        },
+        {
+          "plan": "Family, yearly",
+          "n": "Deezer Family",
+          "p": 218.99,
+          "c": "yearly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 accounts",
+            "Everything in Premium"
+          ],
+          "people": 6
+        },
+        {
+          "plan": "Student",
+          "n": "Deezer Student",
+          "p": 5.99,
+          "c": "monthly",
+          "t": "student",
+          "tn": "Student",
+          "inc": [
+            "Everything in Premium",
+            "For verified students"
+          ],
+          "for": "Students"
         }
       ]
     },
@@ -1564,13 +2764,27 @@
           "plan": "Plus",
           "n": "Dropbox Plus",
           "p": 9.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "plus",
+          "tn": "Plus",
+          "inc": [
+            "2TB of storage",
+            "1 person",
+            "30-day file recovery"
+          ]
         },
         {
           "plan": "Plus, yearly",
           "n": "Dropbox Plus",
           "p": 95.88,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "plus",
+          "tn": "Plus",
+          "inc": [
+            "2TB of storage",
+            "1 person",
+            "30-day file recovery"
+          ]
         }
       ]
     },
@@ -1584,25 +2798,55 @@
           "plan": "Individual",
           "n": "1Password",
           "p": 4.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "1 person",
+            "Unlimited passwords and devices",
+            "1GB of document storage"
+          ]
         },
         {
           "plan": "Individual, yearly",
           "n": "1Password",
           "p": 49.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "1 person",
+            "Unlimited passwords and devices",
+            "1GB of document storage"
+          ]
         },
         {
           "plan": "Families",
           "n": "1Password Families",
           "p": 7.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "families",
+          "tn": "Families",
+          "inc": [
+            "Up to 5 people",
+            "Everything in Individual",
+            "Shared vaults"
+          ],
+          "people": 5
         },
         {
           "plan": "Families, yearly",
           "n": "1Password Families",
           "p": 69.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "families",
+          "tn": "Families",
+          "inc": [
+            "Up to 5 people",
+            "Everything in Individual",
+            "Shared vaults"
+          ],
+          "people": 5
         }
       ]
     },
@@ -1616,7 +2860,12 @@
           "plan": "1 month",
           "n": "NordVPN",
           "p": 10.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "nordvpn",
+          "inc": [
+            "VPN on up to 10 devices",
+            "Threat Protection against ads and malware"
+          ]
         }
       ]
     },
@@ -1630,13 +2879,23 @@
           "plan": "1 month",
           "n": "ExpressVPN",
           "p": 11.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "expressvpn",
+          "inc": [
+            "VPN on up to 8 devices",
+            "Servers in over 100 countries"
+          ]
         },
         {
           "plan": "12 months",
           "n": "ExpressVPN",
           "p": 79.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "expressvpn",
+          "inc": [
+            "VPN on up to 8 devices",
+            "Servers in over 100 countries"
+          ]
         }
       ]
     },
@@ -1650,13 +2909,27 @@
           "plan": "Plus",
           "n": "Notion Plus",
           "p": 11.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "plus",
+          "tn": "Plus",
+          "inc": [
+            "Unlimited blocks and file uploads",
+            "30-day page history",
+            "Unlimited guests"
+          ]
         },
         {
           "plan": "Plus, yearly",
           "n": "Notion Plus",
           "p": 119.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "plus",
+          "tn": "Plus",
+          "inc": [
+            "Unlimited blocks and file uploads",
+            "30-day page history",
+            "Unlimited guests"
+          ]
         }
       ]
     },
@@ -1670,13 +2943,27 @@
           "plan": "Pro",
           "n": "Grammarly Pro",
           "p": 27.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "Rewrites for tone and clarity",
+            "Generative AI writing help",
+            "Plagiarism detection"
+          ]
         },
         {
           "plan": "Pro, yearly",
           "n": "Grammarly Pro",
           "p": 124.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "Rewrites for tone and clarity",
+            "Generative AI writing help",
+            "Plagiarism detection"
+          ]
         }
       ]
     },
@@ -1690,13 +2977,27 @@
           "plan": "Pro",
           "n": "Perplexity Pro",
           "p": 20,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "Many more Pro searches",
+            "A choice of advanced AI models",
+            "File uploads and image creation"
+          ]
         },
         {
           "plan": "Pro, yearly",
           "n": "Perplexity Pro",
           "p": 200,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "pro",
+          "tn": "Pro",
+          "inc": [
+            "Many more Pro searches",
+            "A choice of advanced AI models",
+            "File uploads and image creation"
+          ]
         }
       ]
     },
@@ -1710,7 +3011,108 @@
           "plan": "Career",
           "n": "LinkedIn Premium Career",
           "p": 29.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "career",
+          "tn": "Career",
+          "inc": [
+            "See who viewed your profile",
+            "InMail messages each month",
+            "AI help with applications"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Apps & productivity",
+      "name": "Tripsy",
+      "cat": "Apps & AI",
+      "color": "t7",
+      "plans": [
+        {
+          "plan": "Monthly",
+          "n": "Tripsy",
+          "p": 4.99,
+          "c": "monthly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Unlimited trips with cloud sync",
+            "Forward bookings by email",
+            "Flight alerts, documents and guests"
+          ]
+        },
+        {
+          "plan": "Yearly",
+          "n": "Tripsy",
+          "p": 29.99,
+          "c": "yearly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Unlimited trips with cloud sync",
+            "Forward bookings by email",
+            "Flight alerts, documents and guests"
+          ]
+        },
+        {
+          "plan": "Family, yearly",
+          "n": "Tripsy Family",
+          "p": 49.99,
+          "c": "yearly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 6 people with Family Sharing",
+            "Everything in Individual"
+          ],
+          "people": 6
+        }
+      ]
+    },
+    {
+      "group": "Apps & productivity",
+      "name": "Flighty",
+      "cat": "Apps & AI",
+      "color": "t7",
+      "plans": [
+        {
+          "plan": "Pay-As-You-Go",
+          "n": "Flighty Pay-As-You-Go",
+          "p": 4.99,
+          "c": "weekly",
+          "t": "pay-as-you-go",
+          "tn": "Pay-As-You-Go",
+          "inc": [
+            "Live flight tracking and delay alerts",
+            "Unlimited flight history",
+            "No email import, calendar or TripIt sync"
+          ]
+        },
+        {
+          "plan": "Unlimited Annual",
+          "n": "Flighty",
+          "p": 59.99,
+          "c": "yearly",
+          "t": "annual",
+          "tn": "Unlimited Annual",
+          "inc": [
+            "Unlimited flights and every feature",
+            "Email import, calendar and TripIt sync",
+            "Late aircraft and delay predictions"
+          ]
+        },
+        {
+          "plan": "Annual Family",
+          "n": "Flighty Family",
+          "p": 119,
+          "c": "yearly",
+          "t": "family",
+          "tn": "Annual Family",
+          "people": 6,
+          "inc": [
+            "Up to 6 people with Family Sharing",
+            "Everything in Unlimited Annual"
+          ]
         }
       ]
     },
@@ -1724,25 +3126,49 @@
           "plan": "1 month",
           "n": "Nintendo Switch Online",
           "p": 3.49,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "individual",
+          "inc": [
+            "Online play and cloud saves",
+            "NES and SNES games"
+          ]
         },
         {
           "plan": "12 months",
           "n": "Nintendo Switch Online",
           "p": 17.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "individual",
+          "inc": [
+            "Online play and cloud saves",
+            "NES and SNES games"
+          ]
         },
         {
           "plan": "Expansion Pack, 12 months",
           "n": "Nintendo Switch Online + Expansion Pack",
           "p": 34.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "expansion",
+          "tn": "Expansion Pack",
+          "inc": [
+            "Everything in Switch Online",
+            "N64, Game Boy and GBA games",
+            "Some game expansion packs"
+          ]
         },
         {
           "plan": "Family, 12 months",
           "n": "Nintendo Switch Online Family",
           "p": 31.49,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "family",
+          "tn": "Family",
+          "inc": [
+            "Up to 8 Nintendo Accounts",
+            "Everything in Switch Online"
+          ],
+          "people": 8
         }
       ]
     },
@@ -1756,13 +3182,25 @@
           "plan": "Monthly",
           "n": "EA Play",
           "p": 3.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "ea-play",
+          "inc": [
+            "A library of EA games",
+            "10-hour trials of new games",
+            "10% off EA purchases"
+          ]
         },
         {
           "plan": "Yearly",
           "n": "EA Play",
           "p": 24.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "ea-play",
+          "inc": [
+            "A library of EA games",
+            "10-hour trials of new games",
+            "10% off EA purchases"
+          ]
         }
       ]
     },
@@ -1776,25 +3214,51 @@
           "plan": "Standard Digital",
           "n": "FT Standard Digital",
           "p": 39,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "standard-digital",
+          "tn": "Standard Digital",
+          "inc": [
+            "FT journalism on any device",
+            "Global news and analysis"
+          ]
         },
         {
           "plan": "Standard Digital, yearly",
           "n": "FT Standard Digital",
           "p": 369,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "standard-digital",
+          "tn": "Standard Digital",
+          "inc": [
+            "FT journalism on any device",
+            "Global news and analysis"
+          ]
         },
         {
           "plan": "Premium Digital",
           "n": "FT Premium Digital",
           "p": 59,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium-digital",
+          "tn": "Premium Digital",
+          "inc": [
+            "Everything in Standard Digital",
+            "Lex and expert analysis",
+            "Exclusive newsletters"
+          ]
         },
         {
           "plan": "Premium Digital, yearly",
           "n": "FT Premium Digital",
           "p": 569,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium-digital",
+          "tn": "Premium Digital",
+          "inc": [
+            "Everything in Standard Digital",
+            "Lex and expert analysis",
+            "Exclusive newsletters"
+          ]
         }
       ]
     },
@@ -1808,13 +3272,27 @@
           "plan": "Premium",
           "n": "The Guardian",
           "p": 11.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "The Guardian app without adverts",
+            "Feast recipe app",
+            "The daily digital edition"
+          ]
         },
         {
           "plan": "Premium, yearly",
           "n": "The Guardian",
           "p": 114.99,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "premium",
+          "tn": "Premium",
+          "inc": [
+            "The Guardian app without adverts",
+            "Feast recipe app",
+            "The daily digital edition"
+          ]
         }
       ]
     },
@@ -1849,7 +3327,13 @@
           "plan": "Monthly",
           "n": "Tesco Clubcard Plus",
           "p": 7.99,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "clubcard-plus",
+          "inc": [
+            "10% off 2 big shops a month",
+            "Double Clubcard points on Tesco Mobile",
+            "Extra partner offers"
+          ]
         }
       ]
     },
@@ -1863,7 +3347,12 @@
           "plan": "Monthly",
           "n": "Club Pret",
           "p": 5,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "club-pret",
+          "inc": [
+            "Half price barista drinks",
+            "Up to 5 a day, 30 minutes apart"
+          ]
         }
       ]
     },
@@ -1891,25 +3380,129 @@
           "plan": "Individual",
           "n": "National Trust",
           "p": 8.4,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Free entry to more than 500 places",
+            "Free parking at most car parks",
+            "The handbook and magazine"
+          ]
         },
         {
           "plan": "Individual, yearly",
           "n": "National Trust",
           "p": 100.8,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Free entry to more than 500 places",
+            "Free parking at most car parks",
+            "The handbook and magazine"
+          ]
         },
         {
           "plan": "Joint",
           "n": "National Trust Joint",
           "p": 14,
-          "c": "monthly"
+          "c": "monthly",
+          "t": "joint",
+          "tn": "Joint",
+          "inc": [
+            "2 adults at the same address",
+            "Everything in Individual"
+          ],
+          "people": 2
         },
         {
           "plan": "Joint, yearly",
           "n": "National Trust Joint",
           "p": 168,
-          "c": "yearly"
+          "c": "yearly",
+          "t": "joint",
+          "tn": "Joint",
+          "inc": [
+            "2 adults at the same address",
+            "Everything in Individual"
+          ],
+          "people": 2
+        },
+        {
+          "plan": "Family, 1 adult",
+          "n": "National Trust Family 1 Adult",
+          "p": 9.1,
+          "c": "monthly",
+          "t": "family-1",
+          "tn": "Family, 1 adult",
+          "inc": [
+            "1 adult and their children under 18",
+            "Everything in Individual"
+          ]
+        },
+        {
+          "plan": "Family, 1 adult, yearly",
+          "n": "National Trust Family 1 Adult",
+          "p": 109.2,
+          "c": "yearly",
+          "t": "family-1",
+          "tn": "Family, 1 adult",
+          "inc": [
+            "1 adult and their children under 18",
+            "Everything in Individual"
+          ]
+        },
+        {
+          "plan": "Family, 2 adults",
+          "n": "National Trust Family",
+          "p": 14.7,
+          "c": "monthly",
+          "t": "family-2",
+          "tn": "Family, 2 adults",
+          "inc": [
+            "2 adults and their children under 18",
+            "Everything in Individual"
+          ],
+          "people": 2
+        },
+        {
+          "plan": "Family, 2 adults, yearly",
+          "n": "National Trust Family",
+          "p": 176.4,
+          "c": "yearly",
+          "t": "family-2",
+          "tn": "Family, 2 adults",
+          "inc": [
+            "2 adults and their children under 18",
+            "Everything in Individual"
+          ],
+          "people": 2
+        },
+        {
+          "plan": "Young person",
+          "n": "National Trust Young Person",
+          "p": 4.2,
+          "c": "monthly",
+          "t": "young-person",
+          "tn": "Young person",
+          "inc": [
+            "Everything in Individual",
+            "For ages 18 to 25"
+          ],
+          "for": "18 to 25s"
+        },
+        {
+          "plan": "Young person, yearly",
+          "n": "National Trust Young Person",
+          "p": 50.4,
+          "c": "yearly",
+          "t": "young-person",
+          "tn": "Young person",
+          "inc": [
+            "Everything in Individual",
+            "For ages 18 to 25"
+          ],
+          "for": "18 to 25s"
         }
       ]
     },
@@ -1918,7 +3511,170 @@
       "name": "English Heritage",
       "cat": "Other",
       "color": "t4",
-      "plans": null
+      "plans": [
+        {
+          "plan": "Individual",
+          "n": "English Heritage",
+          "p": 7,
+          "c": "monthly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Unlimited visits to over 400 sites",
+            "Up to 6 children free",
+            "Free parking at most sites"
+          ]
+        },
+        {
+          "plan": "Individual, yearly",
+          "n": "English Heritage",
+          "p": 84,
+          "c": "yearly",
+          "t": "individual",
+          "tn": "Individual",
+          "inc": [
+            "Unlimited visits to over 400 sites",
+            "Up to 6 children free",
+            "Free parking at most sites"
+          ]
+        },
+        {
+          "plan": "Joint",
+          "n": "English Heritage Joint",
+          "p": 12.42,
+          "c": "monthly",
+          "t": "joint",
+          "tn": "Joint",
+          "inc": [
+            "2 adults",
+            "Everything in Individual",
+            "Up to 12 children free"
+          ],
+          "people": 2
+        },
+        {
+          "plan": "Joint, yearly",
+          "n": "English Heritage Joint",
+          "p": 149,
+          "c": "yearly",
+          "t": "joint",
+          "tn": "Joint",
+          "inc": [
+            "2 adults",
+            "Everything in Individual",
+            "Up to 12 children free"
+          ],
+          "people": 2
+        },
+        {
+          "plan": "Adult and Senior",
+          "n": "English Heritage Adult and Senior",
+          "p": 10.83,
+          "c": "monthly",
+          "t": "adult-senior",
+          "tn": "Adult and Senior",
+          "inc": [
+            "1 adult and 1 senior aged 65 or over",
+            "Everything in Individual"
+          ],
+          "for": "Over 65s",
+          "people": 2
+        },
+        {
+          "plan": "Adult and Senior, yearly",
+          "n": "English Heritage Adult and Senior",
+          "p": 130,
+          "c": "yearly",
+          "t": "adult-senior",
+          "tn": "Adult and Senior",
+          "inc": [
+            "1 adult and 1 senior aged 65 or over",
+            "Everything in Individual"
+          ],
+          "for": "Over 65s",
+          "people": 2
+        },
+        {
+          "plan": "Joint Senior",
+          "n": "English Heritage Joint Senior",
+          "p": 9.67,
+          "c": "monthly",
+          "t": "joint-senior",
+          "tn": "Joint Senior",
+          "inc": [
+            "2 adults aged 65 or over",
+            "Everything in Individual"
+          ],
+          "for": "Over 65s",
+          "people": 2
+        },
+        {
+          "plan": "Joint Senior, yearly",
+          "n": "English Heritage Joint Senior",
+          "p": 116,
+          "c": "yearly",
+          "t": "joint-senior",
+          "tn": "Joint Senior",
+          "inc": [
+            "2 adults aged 65 or over",
+            "Everything in Individual"
+          ],
+          "for": "Over 65s",
+          "people": 2
+        },
+        {
+          "plan": "Senior",
+          "n": "English Heritage Senior",
+          "p": 6,
+          "c": "monthly",
+          "t": "senior",
+          "tn": "Senior",
+          "inc": [
+            "1 adult aged 65 or over",
+            "Everything in Individual"
+          ],
+          "for": "Over 65s"
+        },
+        {
+          "plan": "Senior, yearly",
+          "n": "English Heritage Senior",
+          "p": 72,
+          "c": "yearly",
+          "t": "senior",
+          "tn": "Senior",
+          "inc": [
+            "1 adult aged 65 or over",
+            "Everything in Individual"
+          ],
+          "for": "Over 65s"
+        },
+        {
+          "plan": "Young Adult",
+          "n": "English Heritage Young Adult",
+          "p": 3.67,
+          "c": "monthly",
+          "t": "young-adult",
+          "tn": "Young Adult or Student",
+          "inc": [
+            "Everything in Individual",
+            "For ages 18 to 25, or with an NUS card"
+          ],
+          "for": "18 to 25s and students"
+        },
+        {
+          "plan": "Young Adult, yearly",
+          "n": "English Heritage Young Adult",
+          "p": 44,
+          "c": "yearly",
+          "t": "young-adult",
+          "tn": "Young Adult or Student",
+          "inc": [
+            "Everything in Individual",
+            "For ages 18 to 25, or with an NUS card"
+          ],
+          "for": "18 to 25s and students"
+        }
+      ]
     },
     {
       "group": "Memberships",
